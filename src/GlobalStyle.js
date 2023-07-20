@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${({ theme }) => theme.color.mercury};
+        background-color: ${({ theme }) => theme.color.whiteLilac};
         display: flex;
         justify-content: center;
     }
