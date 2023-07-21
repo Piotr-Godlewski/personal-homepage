@@ -1,6 +1,13 @@
-import styled from "styled-components";
+import { StyledAboutMe } from "./styled";
+import { Image } from "./styled";
+import Photo from "./photo.jpg";
 
-export const AboutMe = styled.div`
-max-width: 1089px;
-border: 1px solid #D1D5DA4D;
-`;
+const AboutMe = () => {
+    return (
+        <StyledAboutMe>
+            <Image src={Photo} alt="Piotr Godlewski - photo" />
+        </StyledAboutMe>
+    )
+}
+
+export default AboutMe
