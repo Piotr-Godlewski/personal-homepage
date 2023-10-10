@@ -1,8 +1,13 @@
-import LoremIpsum from "react-lorem-ipsum"
+import { ListContainer, StyledTile, StyledTitle } from "./styled"
 
-const Tile = () => {
-    return(
-<LoremIpsum></LoremIpsum>
+const Tile = ({ title, icon, content }) => {
+    return (
+        <>
+            <StyledTile>
+                <StyledTitle>{title} {icon}</StyledTitle>
+                <ListContainer>{content}</ListContainer>
+            </StyledTile>
+        </>
     )
 }
 
