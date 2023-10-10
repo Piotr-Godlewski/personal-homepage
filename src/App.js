@@ -1,18 +1,8 @@
-import LoremIpsum from "react-lorem-ipsum";
-import { Contact } from "./Contact";
-import AboutMe from "./AboutMe";
-import SkillsContainer from "./Skills/index";
+import Cv from "./Cv";
 
 function App() {
   return (
-    <>
-      <AboutMe>
-      </AboutMe>
-      <SkillsContainer />
-      <Contact>
-        <LoremIpsum></LoremIpsum>
-      </Contact>
-    </>
+    <Cv />
   );
 }
 
