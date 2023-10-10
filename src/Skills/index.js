@@ -10,6 +10,7 @@ const SkillsContainer = () => {
             />
             <Tile
                 title={"What I want to learn next"}
+                icon={"🚀"}
             />
         </StyledContainer>
     )
