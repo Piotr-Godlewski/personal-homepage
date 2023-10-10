@@ -1,22 +1,14 @@
 import LoremIpsum from "react-lorem-ipsum";
-import Container from "./Container";
 import { Contact } from "./Contact";
 import AboutMe from "./AboutMe";
+import SkillsContainer from "./Skills/index";
 
 function App() {
   return (
     <>
       <AboutMe>
       </AboutMe>
-      <Container>
-        
-      </Container>
-      <Container>
-        
-      </Container>
-      <Container>
-        
-      </Container>
+      <SkillsContainer />
       <Contact>
         <LoremIpsum></LoremIpsum>
       </Contact>
