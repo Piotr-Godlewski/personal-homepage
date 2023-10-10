@@ -13,5 +13,6 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${({ theme }) => theme.color.whiteLilac};
         display: flex;
         justify-content: center;
+        font-family: 'Inter', sans-serif;
     }
 `;
