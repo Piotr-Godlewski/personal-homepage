@@ -1,5 +1,18 @@
-import styled from "styled-components";
+import Title from "./Title"
+import Email from "./Email"
+import Paragraph from "./Paragraph"
+import SocialMedia from "./SocialMedia"
+import { StyledContact } from "./styled"
 
-export const Contact = styled.div`
-max-width: 691px;
-`
+const Contact = () => {
+    return (
+        <StyledContact>
+            <Title />
+            <Email />
+            <Paragraph />
+            <SocialMedia />
+        </StyledContact>
+    )
+}
+
+export default Contact
