@@ -1,7 +1,8 @@
 import AboutMe from "../AboutMe"
 import SkillsContainer from "../Skills"
-import { Contact } from "../Contact"
+import Contact from "../Contact"
 import { StyledCv } from "./styled"
+import { Portfolio } from "../Portfolio/styled"
 
 const Cv = () => {
     return (
@@ -10,8 +11,8 @@ const Cv = () => {
                 <AboutMe>
                 </AboutMe>
                 <SkillsContainer />
+                <Portfolio>Portfolio in progress ...</Portfolio>
                 <Contact>
-                    Tu będą linki do mediów społecznościowych
                 </Contact>
             </StyledCv>
         </>
