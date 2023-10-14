@@ -1,6 +1,10 @@
+import { StyledTitle } from "./styled"
+
 const Title = () => {
     return (
-        <p>Let's talk</p>
+        <StyledTitle>
+            Let's talk!
+        </StyledTitle>
     )
 }
 
