@@ -2,7 +2,7 @@ import AboutMe from "../AboutMe"
 import SkillsContainer from "../Skills"
 import Contact from "../Contact"
 import { StyledCv } from "./styled"
-import { Portfolio } from "../Portfolio/styled"
+import Portfolio from "../Portfolio"
 
 const Cv = () => {
     return (
@@ -11,7 +11,7 @@ const Cv = () => {
                 <AboutMe>
                 </AboutMe>
                 <SkillsContainer />
-                <Portfolio>Portfolio in progress ...</Portfolio>
+                <Portfolio />
                 <Contact>
                 </Contact>
             </StyledCv>
