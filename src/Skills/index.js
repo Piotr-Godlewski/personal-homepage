@@ -1,6 +1,7 @@
 import { StyledContainer } from "./styled"
 import Tile from "./Tile"
-import CurrentlySkillList from "./CurrentlySkillList"
+import SkillList from "./SkillList"
+import { mySkills } from "./mySkills"
 
 const SkillsContainer = () => {
     return (
@@ -8,11 +9,12 @@ const SkillsContainer = () => {
             <Tile
                 title={"My skillset includes"}
                 icon={"🛠️"}
-                content={<CurrentlySkillList/>}
+                content={<SkillList skills={mySkills.currently}/>}
             />
             <Tile
                 title={"What I want to learn next"}
                 icon={"🚀"}
+                content={<SkillList skills={mySkills.future}/>}
             />
         </StyledContainer>
     )
