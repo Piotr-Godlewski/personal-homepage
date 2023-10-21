@@ -1,4 +1,5 @@
 import { GitHubIcon } from "../Contact/SocialMedia/icon/GitHub"
+import TilePortfolio from "./TilePortfolio"
 import { Header, Icon, StyledPortfolio, TileContainer, Title } from "./styled"
 
 const Portfolio = () => {
@@ -14,7 +15,10 @@ const Portfolio = () => {
                 My recent projects
             </Title>
             <TileContainer>
-                tu będą pobierane projekty z API Githuba
+                <TilePortfolio/>
+                <TilePortfolio/>
+                <TilePortfolio/>
+                <TilePortfolio/>
             </TileContainer>
         </StyledPortfolio>
     )
