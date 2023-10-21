@@ -12,8 +12,7 @@ const Cv = () => {
                 </AboutMe>
                 <SkillsContainer />
                 <Portfolio />
-                <Contact>
-                </Contact>
+                <Contact/>
             </StyledCv>
         </>
     )
