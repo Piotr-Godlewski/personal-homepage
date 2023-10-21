@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledPortfolio = styled.div`
-height: 200px;
 margin-top: 72px;
 `
 
@@ -36,4 +35,8 @@ letter-spacing: 1px;
 `
 
 export const TileContainer = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 32px;
+margin-top: 24px;
 `
