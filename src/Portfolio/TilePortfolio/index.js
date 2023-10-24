@@ -1,6 +1,6 @@
-import CodeLink from "./CodeLink"
-import DemoLink from "./DemoLink"
 import Description from "./Description"
+import CodeLink from "./SectionLink/CodeLink"
+import DemoLink from "./SectionLink/DemoLink"
 import TileHeader from "./TileHeader"
 import { StyledTilePortfolio } from "./styled"
 
@@ -9,8 +9,8 @@ const TilePortfolio = () => {
         <StyledTilePortfolio>
             <TileHeader></TileHeader>
             <Description></Description>
-            <DemoLink></DemoLink>
-            <CodeLink></CodeLink>
+            <DemoLink />
+            <CodeLink />
         </StyledTilePortfolio>
     )
 }
