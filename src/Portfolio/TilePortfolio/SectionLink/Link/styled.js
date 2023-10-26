@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const LinkContainer = styled.div`
-margin-left: 8px;
-`
-
 export const StyledLink = styled.a`
 color: var(--Main-blue-LM, #0366D6);
 font-family: Inter;
@@ -17,6 +13,13 @@ text-decoration: none;
 
 export const StyledLine = styled.div`
 height: 1px;
-opacity: 0.2;
 background: #0366D6;
+opacity: 0.2;
+`
+
+export const LinkContainer = styled.div`
+margin-left: 8px;
+&:hover ${StyledLine} {
+    opacity: 0.8;
+}
 `
