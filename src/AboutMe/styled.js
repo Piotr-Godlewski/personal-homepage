@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledAboutMe = styled.div`
-margin-top: 120px;
 max-width: 1089px;
 display: flex;
 gap: 72px;
