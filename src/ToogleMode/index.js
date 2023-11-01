@@ -1,20 +1,22 @@
 import { BrightnessBackground } from "./ToogleIcon/BrightnessBackground"
 import { BrightnessIcon } from "./ToogleIcon/BrightnessIcon"
 import { ToogleButton } from "./ToogleIcon/ToogleButton"
-import { Button, StyledBrightnessBackground, StyledBrightnessIcon, StyledToogleMode } from "./styled"
+import { Button, StyledBrightnessBackground, StyledBrightnessIcon, StyledToogleMode, ToogleText } from "./styled"
 
 const ToogleMode = () => {
 
     return (
         <StyledToogleMode>
-            Dark mode off
+            <ToogleText>
+                Dark mode off
+            </ToogleText>
             <Button>
                 <ToogleButton />
                 <StyledBrightnessBackground>
-                <BrightnessBackground />
+                    <BrightnessBackground />
                 </StyledBrightnessBackground>
                 <StyledBrightnessIcon>
-                <BrightnessIcon />
+                    <BrightnessIcon />
                 </StyledBrightnessIcon>
             </Button>
         </StyledToogleMode>
