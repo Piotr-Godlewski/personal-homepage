@@ -1,7 +1,7 @@
 import { FacebookIcon } from "./icon/Facebook"
-import { GitHubIcon } from "./icon/GitHub"
 import { InstagramIcon } from "./icon/Instagram"
 import { LinkedInIcon } from "./icon/LinkedIN"
+import { GitHubIcon } from "./icon/GitHub"
 import { IconContainer, StyledLink } from "./styled"
 
 const SocialMedia = () => {
