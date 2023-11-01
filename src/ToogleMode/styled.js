@@ -12,6 +12,16 @@ display: flex;
 align-items: center;
 justify-content: flex-end;
 margin-top: 120px;
+
+@media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
+margin-top: 21px;
+}
+`
+export const ToogleText = styled.p`
+
+@media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
+    display: none;
+}
 `
 
 export const Button = styled.button`
