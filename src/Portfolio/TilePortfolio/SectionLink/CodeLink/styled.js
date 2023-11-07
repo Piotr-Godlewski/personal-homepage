@@ -10,4 +10,10 @@ line-height: 140%;
 letter-spacing: 0.9px;
 margin-top: 8px;
 display: flex;
+
+@media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+font-size: 14px;
+line-height: normal;
+letter-spacing: 0.7px;
+}
 `
