@@ -8,5 +8,12 @@ font-style: normal;
 font-weight: 400;
 line-height: 140%;
 letter-spacing: 0.9px;
-margin-top: 24px;
+margin: 24px 0 0 0;
+
+@media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
+margin: 12px 0 0 0;
+font-size: 14px;
+line-height: normal;
+letter-spacing: 0.7px;
+}
 `

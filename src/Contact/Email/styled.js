@@ -12,4 +12,9 @@ letter-spacing: 1.6px;
 &:hover {
     color: ${({theme}) => theme.color.scienceBlue}
 };
+
+@media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
+font-size: 18px;
+letter-spacing: 0.9px;
+}
 `

@@ -8,5 +8,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 130%;
 text-transform: uppercase;
-margin-bottom: 24px;
+margin: 0 0 24px 0;
+
+@media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
+margin: 0 0 12px 0;
+}
 `
