@@ -64,6 +64,7 @@ margin-top: 24px;
 
 @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px){
     grid-template-columns: 1fr;
+    gap: 16px;
 }
 `
 
