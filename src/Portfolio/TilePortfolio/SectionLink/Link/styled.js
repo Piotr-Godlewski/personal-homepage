@@ -9,6 +9,12 @@ font-weight: 400;
 line-height: 140%;
 letter-spacing: 0.9px;
 text-decoration: none;
+
+@media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+font-size: 14px;
+line-height: normal;
+letter-spacing: 0.7px;
+}
 `
 
 export const StyledLine = styled.div`
