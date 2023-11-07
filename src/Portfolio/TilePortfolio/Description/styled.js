@@ -9,4 +9,11 @@ font-weight: 400;
 line-height: 140%;
 letter-spacing: 0.9px;
 margin: 24px 0 24px 0;
+
+@media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+font-size: 14px;
+line-height: normal;
+letter-spacing: 0.7px;
+margin: 16px 0 16px 0;
+}
 `
